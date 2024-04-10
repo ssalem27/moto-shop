@@ -3,7 +3,9 @@
 </script>
 
 <template>
-    <Hero/>
-    <Hero/>
-    <Hero/>
+    <div class="bg-gray-500">
+        <Hero/>
+        <Hero/>
+        <Hero/>
+    </div>  
 </template>
