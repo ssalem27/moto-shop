@@ -4,7 +4,11 @@
 </script>
 
 <template>
-  <Navbar/>
-  <Home/>
+  <div>
+    <Navbar/>
+  </div>
+  <div class="h-full bg-olive">
+    <Home/>
+  </div>
 </template>
 
