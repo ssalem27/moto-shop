@@ -5,14 +5,18 @@
 </script>
 
 <template>
-  <div>
+  <div class="content">
     <Navbar/>
-  </div>
-  <div class="h-full bg-olive">
     <Home/>
-  </div>
-  <div>
     <Infobar/>
   </div>
 </template>
+
+<style scoped>
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+
 
